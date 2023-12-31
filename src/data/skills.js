@@ -1,43 +1,53 @@
 const skills = [
   {
-    title: "Flutter",
-    level: "⭐⭐⭐",
-    icon: "/logo/flutter.webp",
+    title: "Java Script",
+    level: "",
+    icon: "/svg/javascript.svg",
   },
   {
-    title: "React.js",
-    level: "⭐⭐⭐",
+    title: "React",
+    level: "",
     icon: "/logo/reactjs.webp",
   },
   {
+    title: "Redux",
+    level: "",
+    icon: "/svg/redux.svg",
+  },
+  {
     title: "Next.js",
-    level: "⭐⭐⭐",
-    icon: "/logo/nextjs.webp",
+    level: "",
+    icon: "/svg/nextJS.svg",
   },
   {
     title: "Node.js",
-    level: "⭐⭐⭐",
+    level: "",
     icon: "/logo/nodejs.webp",
   },
   {
     title: "HTML",
-    level: "⭐⭐",
-    icon: "/logo/html.webp",
+    level: "",
+    icon: "/svg/HTML.svg",
   },
   {
     title: "CSS",
-    level: "⭐⭐",
-    icon: "/logo/css.webp",
+    level: "",
+    icon: "/svg/CSS.svg",
   },
   {
-    title: "MongoDB",
-    level: "⭐⭐",
-    icon: "/logo/mongodb.webp",
+    title: "Sequelize",
+    level: "",
+    icon: "/svg/sequelize.svg",
   },
   {
-    title: "SASS",
-    level: "⭐⭐",
-    icon: "/logo/sass.webp",
+    title: "Express.js",
+    level: "",
+    icon: "/svg/express.svg",
+  },
+  {
+    title: "PostgresSql",
+    level: "",
+    icon: "/svg/postgresSql.svg",
   },
 ];
 

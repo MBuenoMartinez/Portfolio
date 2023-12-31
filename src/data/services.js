@@ -1,27 +1,31 @@
 const services = [
   {
-    title: "Mobile App Development",
-    image: "/icons/mobile-dev.webp",
-    description:
-      "I specialize in creating captivating mobile applications that engage your audience. From concept to deployment, I develop native and cross-platform apps for iOS and Android. With cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that aligns perfectly with your business goals.",
+    institution: "Henry",
+    image: "/images/henryLogo.png",
+    course: "Full Stack Developer",
+    startYear: "Aug 2023",
+    endYear: "Dec 2023",
   },
   {
-    title: "Web Development",
-    image: "/icons/web-dev.webp",
-    description:
-      "I deliver visually stunning and user-friendly websites to help you establish a strong online presence. Whether it's a simple informational site or a complex e-commerce platform, I provide tailored web development solutions. Using the latest frameworks and technologies, I create responsive, SEO-friendly websites that offer a seamless browsing experience on all devices.",
+    institution: "Egg",
+    image: "/images/eggLogo.png",
+    course: "Programming from scratch",
+    startYear: "Jul 2022",
+    endYear: "Aug 2022",
   },
   {
-    title: "Backend Development",
-    image: "/icons/backend-dev.webp",
-    description:
-      "I enhance your digital applications with a robust and scalable backend infrastructure. With expertise in backend development, I create efficient database structures, develop APIs, and configure servers to ensure optimal performance, security, and scalability. My solutions empower your applications to seamlessly handle high traffic and complex data management.",
+    institution: "Faculty of Economic Sciences (UNCuyo)",
+    image: "/images/facultadLogo.png",
+    course: "Bachelor's Degree in Business Administration",
+    startYear: "2019",
+    endYear: "Present",
   },
   {
-    title: "Product Strategy",
-    image: "/icons/backend-dev.webp",
-    description:
-      "I collaborate with you to define clear goals, target audiences, and a roadmap for success. My expertise in product ideation and market analysis ensures that your product not only meets user needs but also aligns with your business strategy for long-term growth and full potential of your digital products with effective product strategy.",
+    institution: "San Jose of the Marist Brothers",
+    image: "/images/maristasLogo.png",
+    course: "High School",
+    startYear: "2014",
+    endYear: "2018",
   },
 ];
 

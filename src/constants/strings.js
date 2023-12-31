@@ -4,12 +4,13 @@ class Strings {
   static telegramUsername = "nixrajput";
 
   static github = "GitHub";
-  static githubLink = "https://www.github.com/nixrajput";
-  static githubUsername = "nixrajput";
+  static githubLink = "https://github.com/MBuenoMartinez";
+  static githubUsername = "MBuenoMartinez";
 
   static linkedIn = "LinkedIn";
-  static linkedInLink = "https://www.linkedin.com/in/nixrajput";
-  static linkedInUsername = "nixrajput";
+  static linkedInLink =
+    "https://www.linkedin.com/in/martin-bueno-martinez-724447284/";
+  static linkedInUsername = "Martin Bueno";
 
   static instagram = "Instagram";
   static instagramLink = "https://www.instagram.com/nixrajput";
@@ -19,7 +20,7 @@ class Strings {
   static twitterLink = "https://www.twitter.com/nixrajput07";
   static twitterUsername = "nixrajput07";
 
-  static fullName = "Nikhil Rajput";
+  static fullName = "Martin Bueno";
   static shortName = "nixrajput";
 }
 

@@ -49,14 +49,20 @@ const HomeSection1 = ({ current, setCurrent }) => {
             <p className="font-semibold max-w-sm">{About.designation}</p>
 
             <p className="mt-8 max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg">
-              {About.description}
+              {About.description1}
+            </p>
+            <p className="mt-8 max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg">
+              {About.description2}
+            </p>
+            <p className="mt-8 max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg">
+              {About.description3}
             </p>
 
-            <FilledButton
+            {/* <FilledButton
               label="Let's Talk"
               onClick={onHandleClickTalkBtn}
               className="mt-8 min-w-[10rem]"
-            />
+            /> */}
 
             <Column classes="mt-8">
               <p className="text-md font-semibold">{About.followText}</p>

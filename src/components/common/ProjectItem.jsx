@@ -10,7 +10,7 @@ const ProjectItem = ({ project }) => {
   return (
     <Column classes="w-full bg-[var(--textColor10)] p-4 rounded-[var(--borderRadius)] items-center justify-between text-center">
       <Column classes="w-full items-center justify-center">
-        <Row classes="w-[4rem] aspect-square bg-[var(--textColor10)] rounded-full p-[1rem] items-center justify-center">
+        <Row classes="w-[8rem] aspect-square bg-[var(--textColor10)] rounded-full p-[1rem] items-center justify-center">
           <Image
             src={project.icon}
             alt={`project-${project.title}`}

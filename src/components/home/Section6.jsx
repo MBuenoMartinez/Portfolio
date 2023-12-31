@@ -46,7 +46,7 @@ const HomeSection6 = ({ current, setCurrent }) => {
             <Row
               classes="bg-[var(--textColor10)] p-4 rounded-[var(--borderRadius)] items-center text-center justify-center cursor-pointer animated__hover"
               onClick={() =>
-                onHandleClickUrl("mailto:nkr.nikhil.nkr@gmail.com")
+                onHandleClickUrl("mailto:martin.bueno10@hotmail.com")
               }
             >
               <span className="text-xl">
@@ -54,7 +54,7 @@ const HomeSection6 = ({ current, setCurrent }) => {
               </span>
 
               <p className="text-lg font-semibold ml-2">
-                nkr.nikhil.nkr@gmail.com
+                martin.bueno10@hotmail.com
               </p>
             </Row>
 
@@ -73,11 +73,11 @@ const HomeSection6 = ({ current, setCurrent }) => {
             })}
           </WrappedBox>
 
-          <h3 className="text-center mx-auto mt-12">
+          {/* <h3 className="text-center mx-auto mt-12">
             I&apos;m{" "}
             <span className="text-[var(--primaryColor)]">Available</span> for
             freelancing.
-          </h3>
+          </h3> */}
         </Column>
       </ConstraintedBox>
     </ResponsiveBox>

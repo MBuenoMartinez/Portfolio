@@ -30,7 +30,7 @@ const HomeSection4 = ({ current, setCurrent }) => {
     >
       <ConstraintedBox classNames="p-4 py-12">
         <h2 className="text-center mx-auto">
-          Skills <span className="text-[var(--primaryColor)]">I Know</span>
+          My <span className="text-[var(--primaryColor)]">Skills</span>
         </h2>
 
         <WrappedBox classes="justify-items-center grid-cols-2 sm:grid-cols-3 mt-12">
@@ -45,7 +45,7 @@ const HomeSection4 = ({ current, setCurrent }) => {
                   alt={`service-${index}`}
                   width={100}
                   height={100}
-                  sizes="100%"
+                  sizes="90%"
                   loading="lazy"
                   placeholder="blur"
                   blurDataURL={service.icon}

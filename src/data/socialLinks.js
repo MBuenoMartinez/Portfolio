@@ -21,24 +21,24 @@ const socialLinks = [
     icon: <FontAwesomeIcon icon={faLinkedin} />,
     text: Strings.linkedInUsername,
   },
-  {
-    name: Strings.telegram,
-    url: Strings.telegramLink,
-    icon: <FontAwesomeIcon icon={faTelegram} />,
-    text: Strings.telegramUsername,
-  },
-  {
-    name: Strings.instagram,
-    url: Strings.instagramLink,
-    icon: <FontAwesomeIcon icon={faInstagram} />,
-    text: Strings.instagramUsername,
-  },
-  {
-    name: Strings.twitter,
-    url: Strings.twitterLink,
-    icon: <FontAwesomeIcon icon={faXTwitter} />,
-    text: Strings.twitterUsername,
-  },
+  // {
+  //   name: Strings.telegram,
+  //   url: Strings.telegramLink,
+  //   icon: <FontAwesomeIcon icon={faTelegram} />,
+  //   text: Strings.telegramUsername,
+  // },
+  // {
+  //   name: Strings.instagram,
+  //   url: Strings.instagramLink,
+  //   icon: <FontAwesomeIcon icon={faInstagram} />,
+  //   text: Strings.instagramUsername,
+  // },
+  // {
+  //   name: Strings.twitter,
+  //   url: Strings.twitterLink,
+  //   icon: <FontAwesomeIcon icon={faXTwitter} />,
+  //   text: Strings.twitterUsername,
+  // },
 ];
 
 export default socialLinks;

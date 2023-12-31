@@ -3,11 +3,16 @@ import Strings from "@/constants/strings";
 const About = {
   welcomeText: "Hi 👋 I'm",
   fullName: Strings.fullName,
-  designation: "Software Enginner & Fullstack Developer",
-  description:
-    "Welcome to my portfolio! I'm a passionate full stack developer dedicated to creating and designing user-centric software that prioritizes ease of use. With proficiency in both front-end and back-end development across various platforms, I specialize in seamlessly integrating cutting-edge technologies while excelling in design.",
-  followText: "Follow me here",
-  avatarUrl: "/images/profile.webp",
+  designation: "Fullstack Developer",
+  description1:
+    "I'm a passionate full stack developer focusing on Front-End with experience in web design. ",
+  description2:
+    "Since childhood, I have enjoyed assembling and creating things. About a year ago, when I decided to dive into the world of programming, I found the opportunity to create, design, and develop projects that provide solutions.",
+  description3:
+    "Throughout this past year, I have been involved in challenging projects and expanded my technical skills. Creative problem-solving, the pursuit of efficient solutions, and teamwork are aspects that drive me to continue improving and facing new challenges.",
+
+  followText: "Social Media",
+  avatarUrl: "/images/martin.png",
 };
 
 export default About;

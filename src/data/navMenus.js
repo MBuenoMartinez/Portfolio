@@ -5,8 +5,8 @@ const navMenus = [
     section: "about",
   },
   {
-    title: "Services",
-    path: "/#services",
+    title: "Education",
+    path: "/#education",
     section: "services",
   },
   {
