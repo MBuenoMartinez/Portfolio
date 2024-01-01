@@ -10,9 +10,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Nikhil Rajput",
+  title: "Martin Bueno",
   description:
-    "Nikhil Rajput is a proficient Full Stack Developer, skilled in seamlessly integrating front-end and back-end technologies while excelling in design.",
+    "Nikhil Rajput is a passionate full stack developer focusing on Front-End with experience in web design.",
 };
 
 const RootLayout = ({ children }) => {

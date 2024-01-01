@@ -16,13 +16,13 @@ import useIsInViewport from "@/hooks/useIsInViewport";
 
 const HomeSection1 = ({ current, setCurrent }) => {
   const homeRef = useRef(null);
-
+  const cvUrl = "";
   const isInView = useIsInViewport(homeRef);
 
-  const onHandleClickTalkBtn = () => {
+  const onHandleClickCv = () => {
     if (typeof window === "undefined") return;
 
-    window.open(Strings.telegramLink, "_blank");
+    window.open(cvUrl, "_blank");
   };
 
   useEffect(() => {
@@ -58,11 +58,11 @@ const HomeSection1 = ({ current, setCurrent }) => {
               {About.description3}
             </p>
 
-            {/* <FilledButton
-              label="Let's Talk"
-              onClick={onHandleClickTalkBtn}
+            <FilledButton
+              label="CV"
+              onClick={onHandleClickCv}
               className="mt-8 min-w-[10rem]"
-            /> */}
+            />
 
             <Column classes="mt-8">
               <p className="text-md font-semibold">{About.followText}</p>

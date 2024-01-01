@@ -8,46 +8,46 @@ import ReadMoreText from "@/components/common/ReadMoreText";
 import WrappedBox from "@/components/common/WrappedBox";
 import Column from "@/components/common/Column";
 import useIsInViewport from "@/hooks/useIsInViewport";
-import services from "@/data/services";
+import educations from "@/data/educations";
 
 const HomeSection2 = ({ current, setCurrent }) => {
-  const servicesRef = useRef(null);
-  const isInView = useIsInViewport(servicesRef);
+  const educationsRef = useRef(null);
+  const isInView = useIsInViewport(educationsRef);
 
   useEffect(() => {
-    if (isInView && current !== "services") setCurrent("services");
+    if (isInView && current !== "educations") setCurrent("educations");
 
     return () => {
-      if (isInView && current === "services") setCurrent(null);
+      if (isInView && current === "educations") setCurrent(null);
     };
   }, [isInView, current, setCurrent]);
 
   return (
     <ResponsiveBox
       classNames="bg-[var(--bgColor)] min-h-[100vh] items-center justify-center"
-      id="services"
-      elementRef={servicesRef}
+      id="educations"
+      elementRef={educationsRef}
     >
       <ConstraintedBox classNames="p-4 py-16">
-        <h2 className="text-center mx-auto">
+        <h2 className="text-center mx-auto mb-10">
           My <span className="text-[var(--primaryColor)]">Education</span>
         </h2>
 
         <WrappedBox classes="flex flex-wrap justify-center">
-          {services.map((service, index) => (
+          {educations.map((education, index) => (
             <Column
-              key={`service-${index}`}
+              key={`education-${index}`}
               classes="bg-[var(--textColor10)] p-4 rounded-[var(--borderRadius)] items-center text-center"
             >
               <Image
-                src={service.image}
-                alt={`service-${index}`}
+                src={education.image}
+                alt={`education-${index}`}
                 width={100}
                 height={100}
                 sizes="100%"
                 loading="lazy"
                 placeholder="blur"
-                blurDataURL={service.image}
+                blurDataURL={education.image}
                 style={{
                   width: "5rem",
                   height: "auto",
@@ -63,13 +63,13 @@ const HomeSection2 = ({ current, setCurrent }) => {
                   whiteSpace: "nowrap",
                 }}
               >
-                {service.institution}
+                {education.institution}
               </h5>
-              <p>{`${service.startYear}-${service.endYear}`}</p>
+              <p>{`${education.startYear}-${education.endYear}`}</p>
               <span className="w-[3rem] h-[0.125rem] bg-[var(--primaryColor)] mx-auto mt-4"></span>
-
+              <p className="mt-4">{education.course}</p>
               <ReadMoreText className="mt-8" visibleTextCount={120}>
-                {service.course}
+                {education.description}
               </ReadMoreText>
             </Column>
           ))}
