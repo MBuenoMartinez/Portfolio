@@ -27,12 +27,12 @@ const skills = [
   {
     title: "HTML",
     level: "",
-    icon: "/svg/HTML.svg",
+    icon: "/svg/html.svg",
   },
   {
     title: "CSS",
     level: "",
-    icon: "/svg/CSS.svg",
+    icon: "/svg/css.svg",
   },
   {
     title: "Sequelize",
