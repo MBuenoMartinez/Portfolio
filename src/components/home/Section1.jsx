@@ -16,7 +16,8 @@ import useIsInViewport from "@/hooks/useIsInViewport";
 
 const HomeSection1 = ({ current, setCurrent }) => {
   const homeRef = useRef(null);
-  const cvUrl = "";
+  const cvUrl =
+    "https://drive.google.com/file/d/1PYrxJ-R2-zYdgKUEa57e2-VCrl9PK2uC/view?usp=sharing";
   const isInView = useIsInViewport(homeRef);
 
   const onHandleClickCv = () => {

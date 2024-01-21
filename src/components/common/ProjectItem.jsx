@@ -53,9 +53,22 @@ const ProjectItem = ({ project }) => {
         </small>
 
         <Row classes="w-full items-center justify-center mt-4 gap-2">
-          {project.githubUrl ? (
+          {project.githubUrl[0] ? (
             <Link
-              href={project.githubUrl}
+              href={project.githubUrl[0]}
+              aria-label={`${project.title} GitHub URL`}
+              target="_blank"
+              className="app__icon_btn"
+              style={{
+                padding: "0.5rem",
+              }}
+            >
+              <FontAwesomeIcon icon={faGithub} className="text-md" />
+            </Link>
+          ) : null}
+          {project.githubUrl[1] ? (
+            <Link
+              href={project.githubUrl[1]}
               aria-label={`${project.title} GitHub URL`}
               target="_blank"
               className="app__icon_btn"
