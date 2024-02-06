@@ -12,7 +12,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "Martin Bueno",
   description:
-    "Nikhil Rajput is a passionate full stack developer focusing on Front-End with experience in web design.",
+    "Martin Bueno is a passionate full stack developer focusing on Front-End with experience in web design. .",
 };
 
 const RootLayout = ({ children }) => {
