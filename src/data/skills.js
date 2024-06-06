@@ -49,6 +49,11 @@ const skills = [
     level: "",
     icon: "/svg/postgresSql.svg",
   },
+  {
+    title: "Boostrap 5",
+    level: "",
+    icon: "/images/boostrap.png",
+  },
 ];
 
 export default skills;

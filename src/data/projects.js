@@ -1,5 +1,16 @@
 const projects = [
   {
+    title: "PIM Access",
+    description:
+      "This project is about a web application for controlling the entry and exit, at the industrial park of a municipality in the province of Mendoza, in Argentina.",
+    icon: "/images/pimLogo.png",
+    sceenshots: [],
+    githubUrl: ["https://github.com/LujanDigital/AccesoPim"],
+    url: "https://accesopim.lujandecuyo.gob.ar",
+    repoType: "private",
+    tags: ["React", "Redux", "Boostrap.css", "PHP"],
+  },
+  {
     title: "Green Wave",
     description:
       "This project is about a website where people can buy and sell products made from recyclable materials.",

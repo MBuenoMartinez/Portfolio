@@ -1,6 +1,13 @@
 const experiences = [
   {
     designation: "Front end Developer",
+    company: "PIM Access proyect",
+    duration: "Mar 2024 - Jun 2024",
+    description:
+      "During this project, I was responsible for designing the entire interface for the different types of users of the application. I learned to implement new functionalities, such as a notification system, alerts message sistems, a photo capture system, and a QR code scanner. I also ensured that the entire application had a responsive design.",
+  },
+  {
+    designation: "Front end Developer",
     company: "Green Wave proyect",
     duration: "Nov 2023 - Dec 2023",
     description:
